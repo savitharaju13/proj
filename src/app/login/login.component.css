@@ -1,0 +1,6 @@
+.container{
+    background-image: url('.././../assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color:darkblue;
+}

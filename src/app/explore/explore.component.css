@@ -1,0 +1,12 @@
+.col-md-auto{
+
+    size: 50px;
+
+}
+
+.container-fluid{
+    background-image: url("../../assets/bgh.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

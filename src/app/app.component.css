@@ -11,10 +11,13 @@
 
   .header-right {
     float: right;
+    color: white;
+    
   }
 
   .header-left {
     float: left;
+    color: white;
   }
 
   .header a:hover {
@@ -22,12 +25,43 @@
     color: black;
   }
 
-  .header :active{
+  .active{
       float: right;
+      color: darkblue;
   }
 
   .header{
-      background-color: white;
+      background-color:rgba(23, 142, 240, 0.801);
       size: 50px;
      image-resolution: 50px;
   }
+
+  .footer{
+    position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:10%;
+   background-color:rgba(12, 85, 145, 0.801);
+   color: white;
+   text-align: center;
+  }
+
+  a{
+    color: honeydew;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .jumbotron {
+    
+    background-color: rgba(185, 215, 240, 0.801);
+    background-image: url("../assets/bgh.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+  }
+
+  
